@@ -1,4 +1,4 @@
-from contents import pantry
+from dict_and_set.dict.contents import pantry
 
 chicken_quantity = pantry.setdefault("chicken", 0)
 print(f'chicken: {chicken_quantity}')

@@ -1,5 +1,4 @@
-from contents import pantry, recipes
-from recipe_options import recipes_dict
+from dict_and_set.dict.contents import pantry, recipes
 
 
 def add_shopping_item(data: dict, item: str, amount: int) -> None:
