@@ -19,4 +19,4 @@ for candidate, skills in candidates.items():
     if skills > set(required_skills):
         interviewees.add(candidate)
 
-print(interviewees )
+print(interviewees)
